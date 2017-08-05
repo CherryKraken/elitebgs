@@ -44,7 +44,8 @@
     </div>
 </section>
 <section *ngIf="docsActive">
-    <div>
+    <!-- <div>
         <iframe [src]="source" frameborder="0"></iframe>
-    </div>
+    </div> -->
+    <app-swagger-ui [docUrl]="'/api/ebgs/v1/api-docs.json'"></app-swagger-ui>
 </section>

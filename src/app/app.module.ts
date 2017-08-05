@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
 import { ClarityModule } from 'clarity-angular';
@@ -34,6 +35,7 @@ import { ApiInterceptor } from './api.interceptor';
         BrowserModule,
         FormsModule,
         ReactiveFormsModule,
+        BrowserAnimationsModule,
         HttpClientModule,
         EddbApiModule,
         EliteBgsModule,
